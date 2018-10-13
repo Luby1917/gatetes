@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MySQL_DataSource": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "gatetes_db",
+    "password": "gatetes_pass",
+    "name": "MySQL_DataSource",
+    "user": "gatetes_user",
+    "connector": "mysql"
+  },
+  "FileStore": {
+    "name": "FileStore",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "files"
+  }
+}
